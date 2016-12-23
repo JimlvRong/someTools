@@ -6,8 +6,8 @@
 //  Copyright © 2016年 myself. All rights reserved.
 //
 
-#import "tool.h"
+#import "LVTool.h"
 
-@implementation tool
+@implementation LVTool
 
 @end
