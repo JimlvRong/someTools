@@ -13,6 +13,7 @@
 		EF0282971E0BD29700F4C689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0282951E0BD29700F4C689 /* Main.storyboard */; };
 		EF0282991E0BD29700F4C689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0282981E0BD29700F4C689 /* Assets.xcassets */; };
 		EF02829C1E0BD29700F4C689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF02829A1E0BD29700F4C689 /* LaunchScreen.storyboard */; };
+		EF0282A61E0BD3A400F4C689 /* tool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0282A51E0BD3A400F4C689 /* tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EF0282981E0BD29700F4C689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF02829B1E0BD29700F4C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF02829D1E0BD29700F4C689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0282A41E0BD3A400F4C689 /* tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tool.h; sourceTree = "<group>"; };
+		EF0282A51E0BD3A400F4C689 /* tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		EF0282801E0BD29700F4C689 = {
 			isa = PBXGroup;
 			children = (
+				EF0282A31E0BD39400F4C689 /* tools */,
 				EF02828B1E0BD29700F4C689 /* someTools */,
 				EF02828A1E0BD29700F4C689 /* Products */,
 			);
@@ -77,6 +81,15 @@
 				EF02828D1E0BD29700F4C689 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF0282A31E0BD39400F4C689 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				EF0282A41E0BD3A400F4C689 /* tool.h */,
+				EF0282A51E0BD3A400F4C689 /* tool.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				EF0282941E0BD29700F4C689 /* ViewController.m in Sources */,
 				EF0282911E0BD29700F4C689 /* AppDelegate.m in Sources */,
 				EF02828E1E0BD29700F4C689 /* main.m in Sources */,
+				EF0282A61E0BD3A400F4C689 /* tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
